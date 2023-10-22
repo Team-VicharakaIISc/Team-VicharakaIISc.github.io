@@ -1,0 +1,7 @@
+.footer-link, .footer-link:visited {
+    color: aliceblue;
+}
+.footer-link:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
