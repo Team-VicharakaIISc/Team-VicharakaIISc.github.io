@@ -1,0 +1,53 @@
+.text{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: grid;
+    align-items: center;
+    font-weight: 700;
+    min-height: 10vh;
+    background-color: #004242;
+}
+.text h1{
+    position: relative;
+}
+.title-text{
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.footer-link, .footer-link:visited {
+    color: aliceblue;
+}
+.footer-link:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+}
+
+.detail{
+    padding: 1vh;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 25vw;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.detail .value{
+    position: relative;
+    z-index: 1;
+}
+.det1{
+    background-image:url(../img/piku.png);
+    background-size : cover;
+    width:16vw;
+    height:16vw;
+    border-radius: 25vw;
+}
