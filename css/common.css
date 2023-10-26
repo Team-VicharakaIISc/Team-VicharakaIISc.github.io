@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #004242;
 }
 
 header {
@@ -14,7 +15,7 @@ header {
   height: 50px;
   z-index: 10;
   text-align: center;
-  background-color: rgba(43, 43, 43, 0.792);
+  background-color: #004242;;
   color: whitesmoke;
   padding: 10px;
   display: grid;
@@ -46,11 +47,12 @@ main {
 
 .title-text {
   text-align: center;
-  font-size: 60px;
-  color: #333;
+  font-size: 80px;
+  color: white;
   min-height: 100vh;
   display: grid;
   align-items: center;
+  font-weight: 600;
 }
 
 .img-details-pair {
@@ -61,20 +63,26 @@ main {
 }
 
 .team-desc {
-  padding: 5px
+  padding: 5px;
+  color:white;
+  font-size: large;
+  font-weight: 450;
+ 
 }
 
 @media screen and (max-width: 600px) {
   .img-details-pair {
     flex-direction: column;
   }
+  
 }
 
 footer {
-  background-color: darkgrey;
+  background-color: rgb(1, 33, 36);
   color: white;
   margin: 50px 0 0 0;
   padding: 10px;
   min-height: 50px;
   text-align: center;
+  box-shadow: 8px 0px 16px 0px #002b2b;
 }
