@@ -1,12 +1,13 @@
 .text{
     text-align: center;
-    font-size: 40px;
+    font-size: 27px;
     color: white;
     display: grid;
     align-items: center;
     font-weight: 700;
     min-height: 10vh;
     background-color: #004242;
+    margin-top: 2vw;
 }
 .text h1{
     position: relative;
@@ -24,6 +25,12 @@
     color: #f1f1f1;
     text-decoration: none;
 }
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vw;
+}
 .contact-box{
     display: flex;
     flex-wrap: wrap;
@@ -32,22 +39,178 @@
 }
 
 .detail{
-    padding: 1vh;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 25vw;
-    background-color: transparent;
+    padding: 2.5vh;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.personname {
+    color: white;
+    padding-top: 20px;
+    transition: 0.3s all;
+    position: relative;
+    transition: 0.3s all;
+    top: 0;
+    max-width: 13vw;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.detail .value{
-    position: relative;
-    z-index: 1;
-}
 .det1{
-    background-image:url(../img/piku.png);
+    background-image:url(../img/pushpak.jpg);
     background-size : cover;
-    width:16vw;
-    height:16vw;
-    border-radius: 25vw;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det2{
+    background-image:url(../img/pandu.jpeg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det3{
+    background-image:url(../img/people/koushik.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det4{
+    background-image:url(../img/people/rajesh.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det5{
+    background-image:url(../img/people/sidak.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det6{
+    background-image:url(../img/people/sahil.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.det7{
+    background-image:url(../img/people/aditya.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.dhruv{
+    background-image:url(../img/people/dhruv.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.nithin{
+    background-image:url(../img/people/nithin.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.sathvik{
+    background-image:url(../img/people/sathvik.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.indu{
+    background-image:url(../img/people/indrayudh.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.mohar{
+    background-image:url(../img/people/mohar.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.armaan{
+    background-image:url(../img/people/armaan.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.pratyush{
+    background-image:url(../img/people/pratyush.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.pratham{
+    background-image:url(../img/people/pratham.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.shisir{
+    background-image:url(../img/people/shishir.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.kalpesh{
+    background-image:url(../img/people/kalpesh.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.pritesh{
+    background-image:url(../img/people/pritesh.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.detail:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+    top: -10px;
+    transition: 0.3s all;
+}
+@media screen and (orientation: portrait){
+    .title-text{
+        display: none;
+    }
+    .text{
+        margin-top: 5vw;
+    }
+   .personname{
+        font-size: 1em;
+        max-width: auto;
+        font-weight: lighter;
+   }
+   .det1,.det2,.det3,.det4,.det5,.det6,.det7,.dhruv,.nithin,.sathvik,.indu,.mohar,.armaan,.pratyush,.pratham,.shisir,.kalpesh,.pritesh{
+    width: 30vw;
+    height: 30vw;
+   }
+
+    
+   
+    
 }

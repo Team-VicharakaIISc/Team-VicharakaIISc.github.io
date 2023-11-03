@@ -7,6 +7,9 @@ body {
   background-color: #004242;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 header {
   position: fixed;
   top: 0;
@@ -15,16 +18,44 @@ header {
   height: 50px;
   z-index: 10;
   text-align: center;
-  background-color: #004242;;
+  background-color: #004242;
   color: whitesmoke;
   padding: 10px;
   display: grid;
+
 }
 
 .header-main {
   align-self: center;
   display: flex;
   align-items: center;
+}
+.header-main ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3em;
+  margin-right: 5vw;
+  margin-block: 0;
+}
+.header-main li{
+  display: inline-block;
+}
+.header-main li a{
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 0.5vw 2vh;
+  text-decoration: none;
+}
+.header-main li a:hover{
+  background-color:#feffff;
+  transition: background-color 0.3s ease-in-out;
+  color: #12202c;
+  border-radius: 1vw;
 }
 
 .header-text {
@@ -38,21 +69,16 @@ header {
   margin-left: 20px;
 }
 
-main {
-  /* min-height: 700px; */
-  max-width: 2000px;
-  margin: 100px 60px 0 60px;
-  display: grid;
-}
 
+main {
+  width: calc(100% - 20px);
+  margin: auto;
+  max-width: 1200px;
+  display: block;
+}
 .title-text {
-  text-align: center;
-  font-size: 80px;
-  color: white;
   min-height: 100vh;
   display: grid;
-  align-items: center;
-  font-weight: 600;
 }
 
 .img-details-pair {

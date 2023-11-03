@@ -1,0 +1,16 @@
+header{
+    box-shadow: 0px 8px 16px 0px #000000;;
+}
+.title-text{
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    font-weight: 500;
+
+}
+body{
+    background-color: white;
+}
