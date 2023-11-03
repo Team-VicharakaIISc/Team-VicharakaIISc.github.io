@@ -187,6 +187,15 @@
     border-radius: 100%;
 
 }
+.sanyat{
+    background-image:url(../img/people/sanyat.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+
+}
 .detail:hover {
     transform: scale(1.1);
     transition: 0.3s all;
@@ -197,19 +206,22 @@
     .title-text{
         display: none;
     }
-    .text{
+    /* .text{
         margin-top: 5vw;
-    }
+    } */
    .personname{
         font-size: 1em;
-        max-width: auto;
+        max-width: 30vw;
         font-weight: lighter;
    }
-   .det1,.det2,.det3,.det4,.det5,.det6,.det7,.dhruv,.nithin,.sathvik,.indu,.mohar,.armaan,.pratyush,.pratham,.shisir,.kalpesh,.pritesh{
+   .det1,.det2,.det3,.det4,.det5,.det6,.det7,.dhruv,.nithin,.sathvik,.indu,.mohar,.armaan,.pratyush,.pratham,.shisir,.kalpesh,.pritesh,.sanyat{
     width: 30vw;
     height: 30vw;
    }
-
+   .text{
+         font-size: 20px;
+         margin-top: 10vw;
+   }
     
    
     

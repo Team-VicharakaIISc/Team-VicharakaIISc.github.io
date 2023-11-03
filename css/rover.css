@@ -1,16 +1,23 @@
-header{
-    box-shadow: 0px 8px 16px 0px #000000;;
-}
-.title-text{
+.title-text {
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: #000000;
-    min-height: 100vh;
-    display: grid;
     align-items: center;
     font-weight: 500;
-
 }
-body{
+
+.title-text .img {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+body {
     background-color: white;
+}
+
+@media (max-width: 768px) {
+    .title-text .img img {
+        max-width: 100%; /* Set the maximum width to 100% for the image */
+        height: auto; /* Allow the image to maintain its aspect ratio */
+    }
 }
