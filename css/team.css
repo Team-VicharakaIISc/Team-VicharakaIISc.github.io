@@ -164,6 +164,14 @@
     height:13vw;
     border-radius: 100%;
 }
+.sirjan{
+    background-image:url(../img/people/sirjan.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
 .shisir{
     background-image:url(../img/people/shishir.jpg);
     background-size : cover;
@@ -196,12 +204,28 @@
 
 
 }
+.kalyan{
+    background-image:url(../img/people/kalyan.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.Bharadwaj{
+    background-image:url(../img/people/Bharadwaj.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
 .detail:hover {
     transform: scale(1.1);
     transition: 0.3s all;
     top: -10px;
     transition: 0.3s all;
 }
+
 @media screen and (orientation: portrait){
     .title-text{
         display: none;
@@ -214,7 +238,7 @@
         max-width: 30vw;
         font-weight: lighter;
    }
-   .det1,.det2,.det3,.det4,.det5,.det6,.det7,.dhruv,.nithin,.sathvik,.indu,.mohar,.armaan,.pratyush,.pratham,.shisir,.kalpesh,.pritesh,.sanyat{
+   .det1,.det2,.det3,.det4,.det5,.det6,.det7,.dhruv,.nithin,.sathvik,.indu,.mohar,.armaan,.pratyush,.pratham,.shisir,.kalpesh,.pritesh,.sanyat,.kalyan,.sirjan,.Bharadwaj{
     width: 30vw;
     height: 30vw;
    }
