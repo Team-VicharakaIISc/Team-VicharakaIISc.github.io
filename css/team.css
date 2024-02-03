@@ -13,9 +13,9 @@
     position: relative;
 }
 .title-text{
-    background-image: url(../img/team.jpg);
+    background-image: url(../img/team2.jpg);
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .footer-link, .footer-link:visited {
@@ -213,6 +213,73 @@
 }
 .Bharadwaj{
     background-image:url(../img/people/Bharadwaj.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.Databased{
+    background-image:url(../img/people/databased.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.Sayak{
+    background-image:url(../img/people/sayak.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.Mehul{
+    background-image:url(../img/people/mehul.jpg);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.Bhuvan{
+    background-image:url(../img/people/bhuvan.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.sharath{
+    background-image:url(../img/people/sharath.JPG);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+}
+.pranav{
+    background-image:url(../img/people/pranav.JPG);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.suhas{
+    background-image:url(../img/people/suhas.JPG);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.RDX{
+    background-image:url(../img/people/rdx.png);
+    background-size : cover;
+    width:13vw;
+    height:13vw;
+    border-radius: 100%;
+
+}
+.Sohan{
+    background-image:url(../img/people/sohan.png);
     background-size : cover;
     width:13vw;
     height:13vw;
