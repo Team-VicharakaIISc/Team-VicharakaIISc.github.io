@@ -183,7 +183,7 @@ p{
     align-items: center;
   }
   #contactDetails .socials a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
   }
   #contactDetails .socials a img{
     width: 32px;
@@ -212,11 +212,10 @@ p{
         min-width: 95vh;
     } */
     .title-text{
-        background-image: url(../img/cover1.jpg);
-        background-size: cover;
+        background-image: none;
         min-height: 100vh;
         text-align: center;
-        font-size: 6em;
+        font-size: 4em;
         color: #ffffff;
         min-height: 100vh;
         align-items: center;
@@ -227,6 +226,7 @@ p{
     #content-container,#display-content {
          display: flex;
          flex-direction: column;
+         
       
         }
 
@@ -281,7 +281,7 @@ p{
         margin: auto;
       }
       .Sponsor .images img{
-        width: calc(60% - 15px); /* Adjust the width as needed */
+        width: calc(100% - 15px); /* Adjust the width as needed */
         height: auto;
         padding: 0.5vw 5vh;
     }
