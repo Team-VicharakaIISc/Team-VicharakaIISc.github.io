@@ -1,0 +1,282 @@
+body{
+    background-color: #004242;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+main{
+    width: auto;
+  }
+
+.footer-link, .footer-link:visited {
+    color: aliceblue;
+}
+.footer-link:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.title-text{
+    background-image: url(../img/OpenDay2023.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#about{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#about p{
+    font-size: 20px;
+    color: #004242;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 25px;
+
+}
+#demonstrations{
+    background-color: white;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.title1{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #004242;
+
+}
+.about-content,
+#about img {
+  width: 100%;
+  float: left;
+}
+.contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.detail{
+    padding: 2.5vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.personname {
+    color: #004242;
+    padding-top: 20px;
+    transition: 0.3s all;
+    position: relative;
+    transition: 0.3s all;
+    top: 0;
+    max-width: 13vw;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.det1{
+    background-image:url(../img/demo.jpg);
+    background-size : cover;
+    width:25vw;
+    height:25vw;
+}
+/*.about-content {
+  width: calc(50% - 20px);
+  padding: 0.5vw 10vh; 
+  text-align: justify;
+  margin-bottom: 25px;
+  color: white;
+}*/
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0px;
+}
+
+#contact{
+    background-color: #004242;
+    overflow: hidden;
+    padding: 50px 0px;
+  }
+  
+  #contactDetails{
+    display: block;
+    box-sizing: border-box;
+    background-color: #e5e7e7;
+    margin: 0;
+    color: #ffffff;
+    align-items: center;
+    width: calc(40%);
+    margin: auto;
+  }
+  
+  #contactDetails > a{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  #contactDetails > a:hover{
+    background-color: #035252;
+    color: white;
+  }
+  
+  #contactDetails .socials{
+    display: flex;
+    flex-direction: row;
+  }
+  #contactDetails .socials a{
+    width: calc(100% / 4);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contactDetails .socials a:hover{
+    opacity: 0.6;
+  }
+  #contactDetails .socials a img{
+    width: 32px;
+    height: 32px;
+  }
+  
+  #contactDetails .socials a.facebook{
+    background-color: #1877f2;
+  }
+  #contactDetails .socials a.instagram{
+    background-color: #e1306c;
+  }
+  #contactDetails .socials a.linkedin{
+    background-color: #007ab9;
+  }
+  #contactDetails .socials a.github{
+    background-color: #000;
+  }
+  #contactDetails .socials a.Youtube{
+    background-color: #FF0000;
+  } 
+
+  .title{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+  @media (max-width: 768px){
+    /* main{
+        margin: 0;
+        min-width: 95vh;
+    } */
+    .title-text{
+        background-image: none;
+        min-height: 100vh;
+        text-align: center;
+        font-size: 4em;
+        color: #ffffff;
+        min-height: 100vh;
+        align-items: center;
+        font-weight: 700;
+        margin: 0;
+    }
+     #about{
+        padding: 50px 10px;
+        clear: both;
+        overflow: auto;
+        
+    }
+    .about-content,
+    #about img {
+      width: 30%;
+      align-items: center;
+    }
+    
+    .about-content {
+      width: auto;
+      padding: 0.5vw 1vh;
+      text-align: justify;
+      margin-bottom: 25px;
+      color: white;
+    }
+    #content-container,#display-content {
+         display: flex;
+         flex-direction: column;
+         
+      
+        }
+
+        #display-content img,video {
+          height: 200px;
+          width: 275px;
+        }
+
+    .title{
+        font-size: 4em;
+    }
+    
+    .title{
+        font-size: 4em;
+    }
+    
+    .button{
+        font-size: 1em;
+        width: calc(50% - 20px);
+    }
+    #contact{
+        overflow: hidden;
+        padding: 50px 0px;
+      }
+      
+      #contactDetails{
+        display: block;
+        box-sizing: border-box;
+        background-color: white;
+        margin: 0;
+        color: #036e6e;
+        align-items: center;
+        width: calc(100%);
+        margin: auto;
+      }
+      .title{
+        font-size: 4em;
+    }
+     
+    .button:hover{
+      background-color: #036e6e;
+      color: white;
+      scale: 1.2;
+      
+  }
+      
+  }
