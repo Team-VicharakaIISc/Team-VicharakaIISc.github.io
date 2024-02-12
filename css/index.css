@@ -1,3 +1,16 @@
+body{
+    background-image: url(../img/space.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+main{
+    width: auto;
+  }
+
 .footer-link, .footer-link:visited {
     color: aliceblue;
 }
@@ -6,18 +19,50 @@
     text-decoration: none;
 }
 
+#content-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+   }
+  
+  #display-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  #display-content img,video {
+    height: 350px;
+  }
+
 .title-text{
-    background-image: url(../img/cover2.png);
+    background-image: url(../img/coverWithoutBackground.png);
     background-size: cover;
     /* min-width: 187vh; */
     /* max-height: 20vh; */
-    min-height: 104vh;
+    background-position: center;
+    margin: 0 0 0 50px;
 }
+
 #about{
     padding: 50px 25px;
     clear: both;
     overflow: auto;
+    background: transparent;
+     margin: 50px auto;
+     max-width: 1100px;
 }
+
+#about img {
+    box-shadow: 20px 20px 30px #00000080;
+    border-radius: 1000px;
+}
+
 .about-content,
 #about img {
   width: 30%;
@@ -91,7 +136,7 @@
     scale: 1.1;
 }
 p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 #contact{
     overflow: hidden;
@@ -138,7 +183,7 @@ p{
     align-items: center;
   }
   #contactDetails .socials a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
   }
   #contactDetails .socials a img{
     width: 32px;
@@ -167,16 +212,29 @@ p{
         min-width: 95vh;
     } */
     .title-text{
-        background-image: url(../img/cover1.jpg);
-        background-size: cover;
+        background-image: none;
         min-height: 100vh;
         text-align: center;
-        font-size: 6em;
+        font-size: 4em;
         color: #ffffff;
         min-height: 100vh;
         align-items: center;
         font-weight: 700;
+        margin: 0;
     }
+
+    #content-container,#display-content {
+         display: flex;
+         flex-direction: column;
+         
+      
+        }
+
+        #display-content img,video {
+          height: 200px;
+          width: 275px;
+        }
+
     .title{
         font-size: 4em;
     }
@@ -184,6 +242,7 @@ p{
         padding: 50px 10px;
         clear: both;
         overflow: auto;
+        
     }
     .about-content,
     #about img {
@@ -203,7 +262,7 @@ p{
     }
     
     .button{
-        font-size: 2em;
+        font-size: 1em;
         width: calc(50% - 20px);
     }
     #contact{
@@ -222,7 +281,7 @@ p{
         margin: auto;
       }
       .Sponsor .images img{
-        width: calc(60% - 15px); /* Adjust the width as needed */
+        width: calc(100% - 15px); /* Adjust the width as needed */
         height: auto;
         padding: 0.5vw 5vh;
     }
